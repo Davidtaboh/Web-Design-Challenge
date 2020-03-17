@@ -4,8 +4,11 @@
 <title>Page Title</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <style>
-    h1 {text-align:left
+    h1 {text-align:center
     ;}
+
+    p {text-align: justify;
+    }
 
     #navbarText {
       background-color: teal;
@@ -19,7 +22,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+      <p id="navbarText">Weather Project</p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,20 +42,19 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Max Temperature</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Wind Speed</a>
-                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
 
-<h1>Summary: Latitude vs. X </h1>
+<h1>Summary: Latitude vs. Max Temperature </h1>
 
-<p>The purpose of this project is to test our HTML and CSS skills by designing a webpage. This webpage will
-    showcase the data of our project</p>
+<p>This page shows the correlation between the max temperature of a city and its latitude</p>
 
 <p>I need to put some filler text here<p>
 
