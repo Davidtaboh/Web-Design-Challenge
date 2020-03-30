@@ -10,6 +10,10 @@
       text-align: center;
     }
 
+    /* p {padding: 70px 0;
+        margin: 0;
+    } */
+
     .navbar {
       background-color: white !important;
     }
@@ -20,6 +24,10 @@
       padding: 25px;
       color: white;
 
+    }
+
+    #equator {
+      float: left;
     }
   </style>
 </head>
@@ -64,25 +72,29 @@
 
     <div class="row">
       <div class="col-md-6">
+        <img src="Equator.gif" width="350" height="250" id="equator">
         <p>The purpose of this project is to test our HTML and CSS skills by designing a webpage. This webpage will
           showcase the data of our project</p>
 
-        <p>I need to put some filler text here<p>
+        <p>The data and visualizations on this website compare various weather attributes to how far cities are from the
+          equator.
+          We used a weather API to assemble a dataset of over 500 cities. The visualizations were made using Matplotlib.
+          <p>
 
-            <div class="col-md-3">
-              <img src="max_temperature.png" width="200" height="200">
-            </div>
-            <div class="col-md-3">
-              <img src="wind_speed.png" width="200" height="200">
-            </div>
       </div>
       <div class="col-md-6">
         <div class="row">
           <div class="col-6">
-            <img src="humidity.png" width="200" height="200">
+            <a href="humidity.html"  alt="Humidity Map"><img src="humidity.png" width="300" height="300"></a>
           </div>
           <div class="col-6">
-            <img src="cloudiness.png" width="200" height="200">
+            <a href="cloudiness.html"  alt="Cloudiness Map"><img src="cloudiness.png" width="300" height="300"></a>
+          </div>
+          <div class="col-6"> 
+            <a href="max_temperature.html"  alt="Temperature Map"><img src="max_temperature.png" width="300" height="300"></a>
+          </div>
+          <div class="col-6">
+            <a href="wind_speed.html"  alt="Wind Speed Map"><img src="wind_speed.png" width="300" height="300"></a>
           </div>
         </div>
       </div>
